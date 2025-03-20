@@ -16,7 +16,7 @@ namespace MovieTicketBookingManagementWeb.Controllers
         // Hiển thị danh sách phim
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Movies.ToListAsync());
+            return View();
         }
 
         // Xem chi tiết phim
